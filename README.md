@@ -36,7 +36,7 @@ autovacuum_vacuum_scale_factor = 0.05
 autovacuum_vacuum_cost_delay = 10
 autovacuum_vacuum_cost_limit = 1000
 ```
-Изменяла значения этих параметров, но наиболее ровное значение tps получилось с этими настройками. Также пробовала выставлять autovacuum_max_workers равным (tps2) и меньше (tps1) числу CPU
+Изменяла значения этих параметров, но наиболее ровное значение tps получилось с настройками из презентации. Также пробовала выставлять autovacuum_max_workers равным (tps2 autovacuum_max_workers=2) и меньше (tps1 autovacuum_max_workers=1) числу CPU
 виртуалки, как рекомендовал преподаватель.
 
 построить график по получившимся значениям
